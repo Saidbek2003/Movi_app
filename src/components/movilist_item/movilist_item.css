@@ -1,0 +1,64 @@
+.list-group-item{
+    padding: 15px 20px;
+    border-bottom: 1px solid #3d5a80;
+}
+.list-group-item:last-child{
+    border-bottom: none;
+}
+.list-group-item span{
+    line-height: 35px;
+    font-size: 20px;
+    cursor: pointer;
+    width: 550px;
+}
+.list-group-item input{
+    line-height: 35px;
+    font-style: 20px;
+    text-align: center;
+    border: 0;
+
+}
+.list-group-item button{
+    width: 35px;
+    height: 35px;
+    margin: 3px;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+.list-group-item .btn-cookie{
+    color: #e09f3e;
+}
+.list-group-item .btn-trash{
+    color: #e5383b;
+}
+.list-group-item .fa-start{
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    font-size: 160px;
+    color: #ffd709;
+    transition: .3s all;
+    transform: translateX(30px);
+    opacity: 0;
+}
+.list-group-item.like .fa-start{
+    opacity: 1;
+    transform: translateX(0px);
+} 
+.list-group-item .list-group-item-label,
+.list-group-item .ist-group-item-input{
+    color: #e09f3e;
+}
+.list-group-item.increase .btn-start{
+    color: #aeaeae;
+}
+/* 
+.movilist_item{
+    margin-top: 1rem;
+    padding: 1.5rem ;
+    border-radius: 4px;
+    background-color: #fcfaf5;
+    box-shadow: 15px 15px  20px rgba(0, 0,0, 0.15);
+} */
